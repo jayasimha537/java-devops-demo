@@ -1,0 +1,11 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "This is build phase"
+      - mvn clean
+  build:
+    commands:
+      - echo "This is build phase"
+      - mvn package
