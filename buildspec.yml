@@ -5,7 +5,11 @@ phases:
     commands:
       - echo "This is install phase"
       - cat dummy.txt
+      - node -v
+      - npm --version
   build:
     commands:
       - echo "This is build phase"
       - cat dummy.txt
+      - node -v
+      - npm --version
